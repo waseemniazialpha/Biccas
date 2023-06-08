@@ -1,10 +1,25 @@
 .container{
     max-width: 1180px;
     margin: 0 auto;
+    z-index: 1;
 }
 a{
     text-decoration: none;
+    z-index: 1;
 }
 li{
     list-style: none;
+}
+.margin-top{
+    margin-top: 130px;
+}
+.flex{
+    display: flex;
+}
+p{
+    color: #A6A6A6;
+    line-height: 30px;
+}
+.w-full{
+    width: 100%;
 }
