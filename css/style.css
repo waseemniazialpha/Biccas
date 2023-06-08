@@ -1,64 +1,78 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
+    box-sizing: border-box;
+
 }
-.bg-1{
+
+.bg-1 {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
 }
-.bg-2{
+
+.bg-2 {
     position: absolute;
-    top:0;
+    top: 0;
     right: 0;
 }
+
 /* top header area   */
 
 
-.top-header{
+.top-header {
     display: flex;
     width: 100%;
     margin-top: 40px;
     justify-content: space-between;
 }
-.logo{
+
+.logo {
     z-index: 1;
-    flex-basis: 30%;
+    flex-basis: 25%;
 }
-.logo a{
+
+.logo a {
     font-size: 50px;
     line-height: 30px;
     font-weight: 600;
     color: #54BD95;
-    
+
 }
-.menu{
-    flex-basis: 70%;
+
+.menu {
+    flex-basis: 65%;
     display: flex;
     align-items: center;
     gap: 20px;
-    justify-content: space-around;
+    justify-content: space-between;
     z-index: 1;
 }
-nav ul li{
+
+nav ul li {
     display: inline;
     margin-left: 40px;
 }
-nav ul li a{
+
+nav ul li a {
     color: #A6A6A6;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: #000000;
 }
-.login{
+
+.login {
     color: #A6A6A6;
     margin-right: 20px;
 }
-.signup{
+
+.signup {
     background-color: #54BD95;
     border-radius: 10px;
     padding: 10px;
@@ -70,6 +84,119 @@ nav ul li a:hover{
 
 /* banner css  */
 
-.banner{
-    dis
+.banner {
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+    align-items: center;
+    /* height: 100vh; */
+    justify-content: space-between;
+
+}
+
+.banner .left {
+    flex-basis: 50%;
+}
+
+.banner .left h1 {
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 700;
+}
+
+.banner .left img {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.banner .left p {
+    max-width: 460px;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.banner .right {
+    flex-basis: 50%;
+    margin-right: -7rem;
+    position: relative;
+    justify-self: flex-end;
+}
+
+.banner .right img {
+    width: 100%;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.btn-1 {
+    background: #54BD95;
+    border-radius: 40px;
+    padding: 20px 30px;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+.btn-2 {
+    color: #191A15;
+    background-color: transparent;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    gap: 14px;
+    display: flex;
+    align-items: center;
+}
+.amount-bg{
+    padding: 14px 18px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 262px;
+    position: absolute;
+    left: -15%;
+    top: 40px;
+}
+.amount{  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.amount button{
+    background: #54BD95;
+    border-radius: 40px;
+    padding: 5px 16px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: none;
+}
+.amount p{
+    font-size: 12px;
+    color: #A9A7B6;
+    margin-bottom: 8px;
+}
+.amount .p-2{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #EEEEEE;
+}
+.income-bg{
+    padding: 12px 13px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 100%;
+    max-width:138px;
+    position: absolute;
+    left: -8%;
+    bottom: 80px;
 }
